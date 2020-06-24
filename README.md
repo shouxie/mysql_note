@@ -1,11 +1,12 @@
 <!--
  * @Author: shouxie
- * @Date: 2020-04-27 15:23:25
- * @Description: 
- -->
-# mysql_note
-up!up!up
+ * @Date: 2020-02-29 09:10:09
+ * @Description:
+--> 
 
+我的：mac root密码 11111111
+windows root密码 111111
+linux（mac上的ubuntu） root密码 111111
 
 #### 数据
 > 数据是事实或观察的结果，它是对客观事物的逻辑归纳，是信息的表现形式和载体，可以是符号、
@@ -37,3 +38,10 @@ mysql -h 主机名 -u 用户名 -p
 
 登陆本机mysql数据库
 mysql -u root -p
+
+#### linux 下安装
+```shell
+sudo apt install mysql-server mysql-client
+ps -aux | grep mysql
+sudo service mysql start|stop
+```
